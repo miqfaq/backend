@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\source\\repos\\WebAPIBackend\\WebAPIBackend\\WebAPIBackend.csproj": {}
+    "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\WebAPIBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\source\\repos\\WebAPIBackend\\WebAPIBackend\\WebAPIBackend.csproj": {
+    "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\WebAPIBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\source\\repos\\WebAPIBackend\\WebAPIBackend\\WebAPIBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\WebAPIBackend.csproj",
         "projectName": "WebAPIBackend",
-        "projectPath": "C:\\Users\\Student\\source\\repos\\WebAPIBackend\\WebAPIBackend\\WebAPIBackend.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\source\\repos\\WebAPIBackend\\WebAPIBackend\\obj\\",
+        "projectPath": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\WebAPIBackend.csproj",
+        "packagesPath": "C:\\Users\\Alex_PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -59,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

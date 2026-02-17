@@ -7,7 +7,8 @@ using Newtonsoft.Json;
 
 namespace WebAPIBackend.Controllers
 {
-    [ApiController]
+    
+    //[ApiController]
     public class AuthController : ControllerBase
     {
         private List<User> _users = new List<User>
