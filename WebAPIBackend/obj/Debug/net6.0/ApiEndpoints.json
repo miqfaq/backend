@@ -21,6 +21,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPIBackend.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPIBackend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
