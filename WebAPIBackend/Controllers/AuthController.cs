@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using WebAPIBackend.Models.Users;
 using Newtonsoft.Json;
+using System.IdentityModel.Tokens.Jwt;
+using System.Runtime.Intrinsics.X86;
+using System.Security.Claims;
 using WebAPIBackend.DbContexts;
+using WebAPIBackend.Models.Users;
 using WebAPIBackend.Utils;
 
 namespace WebAPIBackend.Controllers
@@ -69,6 +71,10 @@ namespace WebAPIBackend.Controllers
                 return null;
             }
 
+            //var tool = _context.Tools
+            //    .Include(x => x.WorkTimeList)
+            //    .FirstOrDefault(t => t.Id == user.Id);
+
             var Claims = new List<Claim>
                 {
                     new Claim(ClaimsIdentity.DefaultNameClaimType, user.Name),
@@ -94,6 +100,8 @@ namespace WebAPIBackend.Controllers
             });
             var id = _context.SaveChanges();
             return Ok(id);
+
+            
         }
             
 

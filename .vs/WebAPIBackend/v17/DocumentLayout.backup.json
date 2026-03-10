@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\utils\\authutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\utils\\authutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\tools\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\tools\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\tools\\worktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\tools\\worktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\departments\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\departments\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +54,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkTime.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:39:33.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:31:52.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:30:54.271Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -46,65 +109,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Departments.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Departments\\Departments.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Departments\\Departments.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Departments\\Departments.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Departments\\Departments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:29:40.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Utils\\AuthUtils.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Utils\\AuthUtils.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Utils\\AuthUtils.cs",
+              "RelativeToolTip": "WebAPIBackend\\Utils\\AuthUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:10:04.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\DbContexts\\AplicationContext.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\DbContexts\\AplicationContext.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\DbContexts\\AplicationContext.cs",
+              "RelativeToolTip": "WebAPIBackend\\DbContexts\\AplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T16:51:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebAPIBackend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "WebAPIBackend\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwEsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Program.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Program.cs",
               "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Program.cs",
               "RelativeToolTip": "WebAPIBackend\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAYAAAA",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "AuthOptions.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\AuthOptions.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\AuthOptions.cs",
               "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\AuthOptions.cs",
               "RelativeToolTip": "WebAPIBackend\\AuthOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Users\\User.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Users\\User.cs",
               "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Users\\User.cs",
               "RelativeToolTip": "WebAPIBackend\\Models\\Users\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\WeatherForecastController.cs*",
-              "RelativeToolTip": "WebAPIBackend\\Controllers\\WeatherForecastController.cs*",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebAPIBackend\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:49:54.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T12:49:54.747Z"
             }
           ]
         }
