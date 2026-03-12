@@ -14,6 +14,6 @@ namespace WebAPIBackend.Models.Employees
         public string PhoneNumber { get; set; }
         public DateTime Birthdate { get; set; }
         public string Post { get; set; } = null;
-        public User User { get; set; }
+        
     }
 }

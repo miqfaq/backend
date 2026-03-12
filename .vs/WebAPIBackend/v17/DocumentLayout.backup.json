@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\utils\\authutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\utils\\authutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\tools\\worktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\employees\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\departments\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\departments\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\dbcontexts\\aplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|solutionrelative:webapibackend\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8F864E4-F1DE-403F-BA12-065FB3F1CB81}|WebAPIBackend\\WebAPIBackend.csproj|c:\\users\\alex_pc\\source\\repos\\lab_backend\\webapibackend\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,45 +57,6 @@
           "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WorkTime.cs",
-              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
-              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
-              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:39:33.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tools.cs",
-              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
-              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\Tools.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
-              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\Tools.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:31:52.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Employees.cs",
-              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
-              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Employees\\Employees.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
-              "RelativeToolTip": "WebAPIBackend\\Models\\Employees\\Employees.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:30:54.271Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
@@ -109,35 +70,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-=======
-              "DocumentIndex": 0,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "WebAPIBackend\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "WebAPIBackend\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T11:22:33.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20260312111143_userdelete.cs",
-              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
-              "RelativeDocumentMoniker": "WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
-              "RelativeToolTip": "WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T11:11:43.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "WorkTime.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
@@ -145,12 +78,11 @@
               "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:39:33.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:39:33.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Tools.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\Tools.cs",
@@ -158,13 +90,23 @@
               "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\Tools.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:31:52.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:31:52.085Z"
             },
             {
               "$type": "Document",
->>>>>>> Stashed changes
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Employees\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:30:54.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Departments.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Departments\\Departments.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Departments\\Departments.cs",
@@ -172,12 +114,11 @@
               "RelativeToolTip": "WebAPIBackend\\Models\\Departments\\Departments.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:29:40.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:29:40.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AuthUtils.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Utils\\AuthUtils.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Utils\\AuthUtils.cs",
@@ -185,12 +126,11 @@
               "RelativeToolTip": "WebAPIBackend\\Utils\\AuthUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:10:04.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T17:10:04.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\DbContexts\\AplicationContext.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\DbContexts\\AplicationContext.cs",
@@ -207,9 +147,9 @@
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "WebAPIBackend\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwEsAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPIBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.729Z",
               "EditorCaption": ""
@@ -222,7 +162,7 @@
               "RelativeDocumentMoniker": "WebAPIBackend\\Program.cs",
               "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Program.cs",
               "RelativeToolTip": "WebAPIBackend\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwCgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.739Z"
             },
@@ -240,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Users\\User.cs",
               "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Users\\User.cs",
               "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Users\\User.cs",
               "RelativeToolTip": "WebAPIBackend\\Models\\Users\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T12:49:54.744Z"
             },

@@ -12,7 +12,9 @@ using WebAPIBackend.Utils;
 namespace WebAPIBackend.Controllers
 {
     
-    //[ApiController]
+    
+    [ApiController]
+    [Route("[controller]")]
     public class AuthController : ControllerBase
     {
         //private List<User> _users = new List<User>
