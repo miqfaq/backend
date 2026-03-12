@@ -109,6 +109,61 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 0,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "WebAPIBackend\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:22:33.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260312111143_userdelete.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
+              "RelativeToolTip": "WebAPIBackend\\Migrations\\20260312111143_userdelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:11:43.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkTime.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\WorkTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:39:33.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "RelativeDocumentMoniker": "WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "ToolTip": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "RelativeToolTip": "WebAPIBackend\\Models\\Tools\\Tools.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:31:52.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 5,
               "Title": "Departments.cs",
               "DocumentMoniker": "C:\\Users\\Alex_PC\\source\\repos\\LAB_BACKEND\\WebAPIBackend\\Models\\Departments\\Departments.cs",
