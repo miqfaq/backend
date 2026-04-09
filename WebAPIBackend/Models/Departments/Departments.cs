@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using WebAPIBackend.Models.Employees;
+using WebAPIBackend.Models.Tools;
 
 namespace WebAPIBackend.Models.Departments
 {
@@ -12,5 +13,6 @@ namespace WebAPIBackend.Models.Departments
         public string Name { get; set; }
         public string Description { get; set; } = null;
         public List<Employee> EmployeesList { get; set; }
+        public List<Tool> ToolsList { get; set; }
     }
 }

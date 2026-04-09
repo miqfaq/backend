@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using WebAPIBackend.Models.Tools;
 using WebAPIBackend.Models.Users;
 namespace WebAPIBackend.Models.Employees
 {
@@ -14,6 +15,6 @@ namespace WebAPIBackend.Models.Employees
         public string PhoneNumber { get; set; }
         public DateTime Birthdate { get; set; }
         public string Post { get; set; } = null;
-        
+        public WorkTime workTime { get; set; }
     }
 }
