@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Local configs
+appsettings.Development.json
+launchSettings.json    # если содержит локальные пути/порты
+
+# Other
+*.local.json
+*.local.config
