@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Runtime.Intrinsics.X86;
 using System.Security.Claims;
 using WebAPIBackend.DbContexts;
+using WebAPIBackend.Models.DTO;
 using WebAPIBackend.Models.Users;
 using WebAPIBackend.Utils;
 
@@ -31,9 +32,9 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpPost("/login")]
-        public IActionResult Login(string name, string password)
+        public IActionResult Login([FromBody] LoginRequestDto loginRequest)
         {
-            var identity = GetIdentity(name, password);
+            var identity = GetIdentity(loginRequest.Login, loginRequest.Password);
             if (identity == null)
             {
                 return BadRequest(new { error_text = "Invalid username or password" });
@@ -92,12 +93,18 @@ namespace WebAPIBackend.Controllers
 
 
         [HttpPost("/register")]
-        public IActionResult Register(string name, string password)
+        public IActionResult Register([FromBody]RegisterRequestDto registerRequest)
         {
+            var user = _context.Users.FirstOrDefault(u => u.Name == registerRequest.Login);
+            if (user != null)
+            {
+                return BadRequest("User with this login already exist");
+            }
+
             _context.Users.Add(new User
             {
-                Name = name,
-                Password = AuthUtils.HashPassword(password),
+                Name = registerRequest.Login,
+                Password = AuthUtils.HashPassword(registerRequest.Password),
                 Role = "user"
             });
             var id = _context.SaveChanges();
