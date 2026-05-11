@@ -81,14 +81,9 @@ namespace WebAPIBackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("workTimeId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
-
-                    b.HasIndex("workTimeId");
 
                     b.ToTable("Employees");
                 });
@@ -100,9 +95,6 @@ namespace WebAPIBackend.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("DepartmentId")
-                        .HasColumnType("integer");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -116,8 +108,6 @@ namespace WebAPIBackend.Migrations
                         .HasColumnType("boolean");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
 
                     b.ToTable("Tools");
                 });
@@ -137,7 +127,7 @@ namespace WebAPIBackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("ToolId")
+                    b.Property<int>("ToolId")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
@@ -177,35 +167,22 @@ namespace WebAPIBackend.Migrations
                     b.HasOne("WebAPIBackend.Models.Departments.Department", null)
                         .WithMany("EmployeesList")
                         .HasForeignKey("DepartmentId");
-
-                    b.HasOne("WebAPIBackend.Models.Tools.WorkTime", "workTime")
-                        .WithMany()
-                        .HasForeignKey("workTimeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("workTime");
-                });
-
-            modelBuilder.Entity("WebAPIBackend.Models.Tools.Tool", b =>
-                {
-                    b.HasOne("WebAPIBackend.Models.Departments.Department", null)
-                        .WithMany("ToolsList")
-                        .HasForeignKey("DepartmentId");
                 });
 
             modelBuilder.Entity("WebAPIBackend.Models.Tools.WorkTime", b =>
                 {
-                    b.HasOne("WebAPIBackend.Models.Tools.Tool", null)
+                    b.HasOne("WebAPIBackend.Models.Tools.Tool", "Tool")
                         .WithMany("WorkTimeList")
-                        .HasForeignKey("ToolId");
+                        .HasForeignKey("ToolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tool");
                 });
 
             modelBuilder.Entity("WebAPIBackend.Models.Departments.Department", b =>
                 {
                     b.Navigation("EmployeesList");
-
-                    b.Navigation("ToolsList");
                 });
 
             modelBuilder.Entity("WebAPIBackend.Models.Tools.Tool", b =>

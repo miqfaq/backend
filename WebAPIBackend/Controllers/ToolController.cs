@@ -22,43 +22,27 @@ namespace WebAPIBackend.Controllers
         [HttpGet("tools")]
         public IEnumerable<Tool> GetTools()
         {
-            return _context.Tools.Include(t => t.WorkTimeList);
+            return _context.Tools.Include(t=>t.WorkTimeList);
         }
-        [HttpPost("tool")]
+        [HttpGet("tool")]
         public IActionResult CreateTool([FromBody] ToolsDto toolsDto)
         {
-            // Сначала находим департамент
-            var department = _context.Departments
-                .Include(d => d.ToolsList)
-                .FirstOrDefault(d => d.Id == toolsDto.DepartmentId);
-
-            if (department == null)
-            {
-                return BadRequest("Department not found");
-            }
-
-            // Создаем новый инструмент
-            var newTool = new Tool
-            {
-                Name = toolsDto.Name,
-                Description = toolsDto.Description,
-                status = toolsDto.status,
-                WorkTimeList = new List<WorkTime>() // Инициализируем список
-            };
-
-            // Добавляем инструмент в контекст
-            _context.Tools.Add(newTool);
-
-            // Добавляем инструмент в список департамента
-            if (department.ToolsList == null)
-            {
-                department.ToolsList = new List<Tool>();
-            }
-            department.ToolsList.Add(newTool);
-
+            var tools_list = _context.Departments.Include(d => d.ToolsList).FirstOrDefault(d => d.Id == toolsDto.DepartmentId);
             _context.SaveChanges();
+            if (tools_list != null)
+            {
+                var _tool = _context.Tools.Add(toolsDto.Tools);
+                _context.SaveChanges();
+                if (tools_list.ToolsList == null)
+                {
+                    tools_list.ToolsList = new List<Tool>();
+                }
+                tools_list.ToolsList.Add(_tool.Entity);
+                _context.SaveChanges();
+                return Ok(_tool.Entity.Id);
+            }
+            return BadRequest("Department not found")
 
-            return Ok(newTool.Id);
         }
 
         [HttpPut("tool")]
@@ -76,56 +60,6 @@ namespace WebAPIBackend.Controllers
             return BadRequest("Tool not found");
 
         }
-
-        [HttpDelete("tool")]
-        public IActionResult DeleteTool([FromBody] Tool tool)
-        {
-            var _tool = _context.Tools.FirstOrDefault(e => e.Id == tool.Id);
-            if ( _tool != null)
-            {
-                _context.Tools.Remove(_tool);
-                _context.SaveChanges();
-                return Ok();
-            }
-            return BadRequest("Tool not found");
-        }
-
-        [HttpPost("worktime")]
-        public IActionResult AddWorkTime([FromBody] WorkTime workTime)
-        {
-            var _tool = _context.Tools.FirstOrDefault(e =>e.Id == workTime.Id);
-            if (_tool != null)
-            {
-                if ( _tool.WorkTimeList == null)
-                {
-                    _tool.WorkTimeList = new List<WorkTime>();
-                }
-                _tool.WorkTimeList.Add(new WorkTime
-                {
-                    Description = workTime.Description,
-                    DateRegistration = workTime.DateRegistration,
-                });
-                _context.SaveChanges();
-                var WtId = _context.WorkTime.LastOrDefault()?.Id ?? 0;
-                return Ok(WtId);
-            }
-            return BadRequest("Tool not found");
-        }
-
-        [HttpDelete("worktime")]
-        public IActionResult DeleteWorkTime(int id)
-        {
-            var _workTime = _context.WorkTime.FirstOrDefault(e => e.Id == id);
-            if (_workTime != null)
-            {
-                _context.WorkTime.Remove(_workTime);
-                _context.SaveChanges();
-                return Ok();
-            }
-            return BadRequest("Work Time not found");
-        }
-
-
-
+        
     }
 }
