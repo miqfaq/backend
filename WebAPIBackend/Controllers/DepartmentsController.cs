@@ -1,5 +1,7 @@
 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPIBackend.DbContexts;
 using WebAPIBackend.Models.Departments;
 
@@ -7,6 +9,7 @@ namespace WebAPIBackend.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class DepartmentsController : ControllerBase
     {
         private AplicationContext _context;
@@ -15,13 +18,16 @@ namespace WebAPIBackend.Controllers
         {
             _context = new AplicationContext();
         }
+
         [HttpGet]
+        [Authorize(Roles = "admin, manager")]
         public IEnumerable<Department> GetDepartments()
         {
             return _context.Departments.ToList();
         }
 
         [HttpPost("department")]
+        [Authorize(Roles ="admin")]
         public IActionResult AddDepartment(string name, string? desctiption)
         {
             var department = _context.Departments.Add(new Department { Name = name, Description = desctiption });
@@ -30,6 +36,7 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpPut("department")]
+        [Authorize(Roles = "admin")]
         public IActionResult UpdateDepartment (int id, string name, string? description)
         {
             var department = _context.Departments.FirstOrDefault(d => d.Id == id);
@@ -43,6 +50,7 @@ namespace WebAPIBackend.Controllers
             return BadRequest("Department not found");
         }
         [HttpDelete("department")]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteDepartment(int id)
         {
             var department = _context.Departments.FirstOrDefault(d => d.Id == id);

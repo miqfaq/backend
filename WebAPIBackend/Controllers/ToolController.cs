@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAPIBackend.DbContexts;
@@ -11,6 +12,7 @@ namespace WebAPIBackend.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class ToolController : ControllerBase
     {
         private AplicationContext _context;
@@ -20,11 +22,13 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpGet("tools")]
+        [Authorize(Roles ="admin, manager")]
         public IEnumerable<Tool> GetTools()
         {
             return _context.Tools.Include(t => t.WorkTimeList);
         }
         [HttpPost("tool")]
+        [Authorize(Roles = "admin")]
         public IActionResult CreateTool([FromBody] ToolsDto toolsDto)
         {
             // Сначала находим департамент
@@ -62,6 +66,7 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpPut("tool")]
+        [Authorize(Roles = "admin")]
         public IActionResult UpdateTool([FromBody] Tool tool)
         {
             var _tool = _context.Tools.FirstOrDefault(e => e.Id == tool.Id);
@@ -78,6 +83,7 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpDelete("tool")]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteTool([FromBody] Tool tool)
         {
             var _tool = _context.Tools.FirstOrDefault(e => e.Id == tool.Id);
@@ -91,6 +97,7 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpPost("worktime")]
+        [Authorize(Roles = "admin")]
         public IActionResult AddWorkTime([FromBody] WorkTime workTime)
         {
             var _tool = _context.Tools.FirstOrDefault(e =>e.Id == workTime.Id);
@@ -113,6 +120,7 @@ namespace WebAPIBackend.Controllers
         }
 
         [HttpDelete("worktime")]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteWorkTime(int id)
         {
             var _workTime = _context.WorkTime.FirstOrDefault(e => e.Id == id);
