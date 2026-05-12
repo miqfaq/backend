@@ -9,10 +9,12 @@ namespace WebAPIBackend.DbContexts
     public class AplicationContext : DbContext
     {
         public DbSet<User> Users { get; set; } = null;
-        public DbSet<Department> Departments { get; set; }
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Tool> Tools { get; set; }
-        public DbSet<WorkTime> WorkTime { get; set; }
+        public DbSet<Department> Departments { get; set; } = null;
+        public DbSet<Employee> Employees { get; set; } = null;
+        public DbSet<Tool> Tools { get; set; } = null;
+        public DbSet<WorkTime> WorkTime { get; set; } = null;
+        public DbSet<UserFile> UserFiles { get; set; } = null;
+
 
         public AplicationContext()
         {

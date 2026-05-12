@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using WebAPIBackend.DbContexts;
@@ -11,9 +12,11 @@ using WebAPIBackend.DbContexts;
 namespace WebAPIBackend.Migrations
 {
     [DbContext(typeof(AplicationContext))]
-    partial class AplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20260512111732_USERFiles1")]
+    partial class USERFiles1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,6 +89,32 @@ namespace WebAPIBackend.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("WebAPIBackend.Models.Employees.UserFile", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("DisplayName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("EmployeeId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("SystemName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("UserFiles");
                 });
 
             modelBuilder.Entity("WebAPIBackend.Models.Tools.Tool", b =>
@@ -167,37 +196,18 @@ namespace WebAPIBackend.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("WebAPIBackend.Models.Users.UserFile", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("DisplayName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SystemName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserFiles");
-                });
-
             modelBuilder.Entity("WebAPIBackend.Models.Employees.Employee", b =>
                 {
                     b.HasOne("WebAPIBackend.Models.Departments.Department", null)
                         .WithMany("EmployeesList")
                         .HasForeignKey("DepartmentId");
+                });
+
+            modelBuilder.Entity("WebAPIBackend.Models.Employees.UserFile", b =>
+                {
+                    b.HasOne("WebAPIBackend.Models.Employees.Employee", null)
+                        .WithMany("UserFiles")
+                        .HasForeignKey("EmployeeId");
                 });
 
             modelBuilder.Entity("WebAPIBackend.Models.Tools.Tool", b =>
@@ -214,13 +224,6 @@ namespace WebAPIBackend.Migrations
                         .HasForeignKey("ToolId");
                 });
 
-            modelBuilder.Entity("WebAPIBackend.Models.Users.UserFile", b =>
-                {
-                    b.HasOne("WebAPIBackend.Models.Users.User", null)
-                        .WithMany("UserFiles")
-                        .HasForeignKey("UserId");
-                });
-
             modelBuilder.Entity("WebAPIBackend.Models.Departments.Department", b =>
                 {
                     b.Navigation("EmployeesList");
@@ -228,14 +231,14 @@ namespace WebAPIBackend.Migrations
                     b.Navigation("ToolsList");
                 });
 
+            modelBuilder.Entity("WebAPIBackend.Models.Employees.Employee", b =>
+                {
+                    b.Navigation("UserFiles");
+                });
+
             modelBuilder.Entity("WebAPIBackend.Models.Tools.Tool", b =>
                 {
                     b.Navigation("WorkTimeList");
-                });
-
-            modelBuilder.Entity("WebAPIBackend.Models.Users.User", b =>
-                {
-                    b.Navigation("UserFiles");
                 });
 #pragma warning restore 612, 618
         }

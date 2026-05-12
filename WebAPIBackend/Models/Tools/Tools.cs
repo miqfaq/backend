@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using WebAPIBackend.Models.DTO;
 
 namespace WebAPIBackend.Models.Tools
 {
@@ -12,5 +13,6 @@ namespace WebAPIBackend.Models.Tools
         public string Description { get; set; } = null;
         public bool status { get; set; } = false;//Занято ли оборудование
         public List<WorkTime> WorkTimeList { get; set; }
+        
     }
 }

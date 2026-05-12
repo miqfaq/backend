@@ -8,7 +8,7 @@ namespace WebAPIBackend
         public const string ISSUER = "WebAPI_App_Server";
         public const string AUDIENCE = "WebAPI_App_Client";
         public const string KEY = "A211B41B-F95B-4BA1-BCF3-1F5219EBC1CF";
-        public const int LIFETIME = 1;
+        public const int LIFETIME = 600;
 
         public static SymmetricSecurityKey GetSummetricSecurityKey()
         {
