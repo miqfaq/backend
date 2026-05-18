@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAPIBackend.DbContexts;
 using WebAPIBackend.Models.Departments;
+using WebAPIBackend.Models.DTO;
 
 namespace WebAPIBackend.Controllers
 {
@@ -28,22 +29,22 @@ namespace WebAPIBackend.Controllers
 
         [HttpPost("department")]
         [Authorize(Roles ="admin")]
-        public IActionResult AddDepartment(string name, string? desctiption)
+        public IActionResult AddDepartment([FromBody]AddDepReqDto addDepReqDTO)
         {
-            var department = _context.Departments.Add(new Department { Name = name, Description = desctiption });
+            var department = _context.Departments.Add(new Department { Name = addDepReqDTO.name, Description = addDepReqDTO.description });
             _context.SaveChanges();
             return Ok(department.Entity?.Id ?? 0);
         }
 
         [HttpPut("department")]
         [Authorize(Roles = "admin")]
-        public IActionResult UpdateDepartment (int id, string name, string? description)
+        public IActionResult UpdateDepartment([FromBody] UpdDepReqDto updDepReqDto)
         {
-            var department = _context.Departments.FirstOrDefault(d => d.Id == id);
+            var department = _context.Departments.FirstOrDefault(d => d.Id == updDepReqDto.Id);
             if(department != null)
             {
-                department.Name = name;
-                department.Description = description;
+                department.Name = updDepReqDto.Name;
+                department.Description = updDepReqDto.Description;
                 _context.SaveChanges();
                 return Ok();
             }

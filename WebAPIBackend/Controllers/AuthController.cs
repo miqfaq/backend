@@ -54,6 +54,7 @@ namespace WebAPIBackend.Controllers
             {
                 access_token = encodedjwt,
                 username = identity.Name,
+                role = identity.Claims.FirstOrDefault(c => c.Type.Contains("role"))?.Value,
             };
             return Ok(JsonConvert.SerializeObject(response));
         }

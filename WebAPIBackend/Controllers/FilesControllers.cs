@@ -65,7 +65,7 @@ namespace WebAPIBackend.Controllers
         }
 
 
-        [HttpGet("download")]
+        [HttpPost("download")]
         public IActionResult DownloadFile([FromBody] DownloadFileRequestDto downloadFileRequestDto)
         {
             try
