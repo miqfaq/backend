@@ -1,12 +1,7 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using WebAPIBackend.Models.Tools;
-using WebAPIBackend.Models.Users;
-namespace WebAPIBackend.Models.Employees
+namespace WebAPIBackend.Models.DTO
 {
-    public class Employee
+    public class EmplReqDto
     {
-        
         public int Id { get; set; }
         public int DepartmentId { get; set; }
         public string FirstName { get; set; }
